@@ -1,0 +1,45 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+._icon-arrow-1:before {
+	content: "\e900";
+  }
+  ._icon-clock-fill:before {
+	content: "\e901";
+  }
+  ._icon-geo-alt-fill:before {
+	content: "\e902";
+  }
+  ._icon-PARAGRAPH:before {
+	content: "\e903";
+  }
+  ._icon-play-fill:before {
+	content: "\e904";
+  }
+  ._icon-s-instagram:before {
+	content: "\e905";
+  }
+  ._icon-s-medium:before {
+	content: "\e906";
+  }
+  ._icon-s-tiktok:before {
+	content: "\e907";
+  }
+  ._icon-s-twitter:before {
+	content: "\e908";
+  }
+  
